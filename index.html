@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form registrazione LibertyMusic</title>
+    <style>
+        body{
+            background-image:url(https://www.pcprofessionale.it/wp-content/uploads/2016/09/musica.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-y: -20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: red; font-size: 50px;">LibertyMusic</h1>
+    <form onsubmit="alert('Registrazione avvenuta con successo!')">
+    <div>
+        <fieldset style="text-align: center; border: 0px;"></fieldset>
+        <legend style="color: green;" style="font-weight: bold;">Registrazione dati dell'utente</legend>
+    <input type="text" placeholder="Il tuo nome"/>
+    </div>
+    <div>
+        <input type="text" placeholder="Il tuo cognome"
+    </div>
+    <div>
+        <input type="email" placeholder="Il tuo indirizzo email"
+    </div>
+    <div>
+        <input type="password" placeholder="La tua password"
+    </div>
+    <div>
+        
+        <fieldset style="text-align: center; border: 0px;"></fieldset>
+        <legend style="color: green;" style="font-weight: bold;">Data di nascita</legend>
+        <input type="date"
+    </div>
+    <div>
+        <fieldset style="text-align: center; border: 0px;"></fieldset>
+        <legend style="color: green;" style="font-weight: bold;">Contatto telefonico</legend>
+        <input type="number" style="text-align: center;" placeholder="Telefono"
+    </div>
+    <fieldset style="text-align: center; border: 0px;"></fieldset>
+        <legend style="color: green;" style="font-weight: bold;">Generi musicali</legend>
+    <input type="checkbox"/>Latino americano
+    <input type="checkbox"/>Reggaeton <br>
+    <input type="checkbox"/>Pop
+    <input type="checkbox"/>Country <br>
+    <input type="checkbox"/>Reggae
+    <input type="checkbox"/>Indie rock <br>
+    <input type="checkbox"/>Hardstyle
+    <input type="checkbox"/>House <br>
+    <input type="checkbox"/>Rock
+    <input type="checkbox"/>Summer hits <br>
+    <div><br>
+        <details>
+            <summary>
+                <input type="radio"/<em>Termini e Condizioni</em>
+            </summary>
+        </details>
+    </div><br>
+    <button type="submit">Invia registrazione</button>
+    </form>
+</body>
+</html>
